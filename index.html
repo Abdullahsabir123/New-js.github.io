@@ -4,8 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .bg{
+            background-color: yellow;
+        }
+    </style>
 </head>
 <body>
-    <script src="Java.js"></script>
+    <script class="bg">
+        weightg=prompt("Enter weight in gram");
+        weightkg=prompt("Enter weight in kilogram");
+
+        console.log("You has to pay=",weightg*weightkg);
+        document.write("<h1>You has to pay=</h1>",weightg*weightkg);
+    </script>
 </body>
 </html>
